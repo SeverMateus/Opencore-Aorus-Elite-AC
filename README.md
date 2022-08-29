@@ -1,6 +1,24 @@
 # Opencore-Aorus-Elite-AC
 OpenCore Gigabyte Z490 Aorus Elite AC
 
+Last update: **OpenCore 0.8.3** + **macOS Monterey 12.5**
+
+## hardware
+- i7 10700k + 6900XT XTXH
+- gigabyte z490 elite ac
+- 4x16Gb crucial 3000mhz
+- nvme samsung 970 evo 500gb
+
+## files
+- see EFI in releases
+- in config.plist need write your settings values (tag #your): mlb, serialnumber, uuid.
+
+## etc
+- wifi system board not tested (maybe on if kext enable)
+- apple magic keyboard, touchpad, mouse work fine.
+
+
+## Documentation WIP
 opencore 0.6.7 bootloader for gigabyte z490 Aorus Elite AC.
 The purpose of this EFI is that anyone with the same board can run macOS BigSure without any problems without worrying about configurations.
 all onboard hardware are working as normal even integreted wifi and bluetooth.
